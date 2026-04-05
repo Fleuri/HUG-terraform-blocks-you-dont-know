@@ -6,7 +6,7 @@ test {
 
 run "set_correct_vm_name" {
   variables {
-    vm-name = "test-vm" #Change this variable to see the test fail.
+    vm-name = "test-vm" # Change this variable to see the test fail.
   }
 
   assert {
